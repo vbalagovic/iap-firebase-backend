@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"module": "esnext",
+		"moduleResolution": "node16",
+		"resolveJsonModule": true,
+		"outDir": "lib",
+		"target": "es2020", // Node.js 14
+		"lib": [
+			"es2020"
+		],
+		"noPropertyAccessFromIndexSignature": false,
+		"isolatedModules": true
+	},
+	"compileOnSave": true,
+	"include": [
+		"src"
+	],
+	"ts-node": {
+		"transpileOnly": true,
+		"files": true,
+		"experimentalResolver": true
+	}
+}
